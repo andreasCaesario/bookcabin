@@ -1,0 +1,33 @@
+# Node modules
+frontend/node_modules/
+
+# Build output
+frontend/build/
+
+# Dependency directories
+backend/vendor/
+
+# SQLite database
+backend/vouchers.db
+
+# Go build output
+backend/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Logs
+*.log
+
+# Env files
+.env
+backend/.env
