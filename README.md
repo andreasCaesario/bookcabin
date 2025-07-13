@@ -2,6 +2,24 @@
 
 This project is a full-stack web application for generating airline crew seat assignment vouchers. It features a Go (Golang 1.23.0) backend and a React frontend, with persistent storage using SQLite. The project is easy to run locally without Docker.
 
+## ⚠️ Important: Clone with Correct Directory Name
+
+Before running the project, make sure the root directory is named `bookcabin-test`.
+
+If you clone the repository and the folder is not named `bookcabin-test`, rename it:
+
+```sh
+mv <cloned-folder-name> bookcabin-test
+```
+
+Or, when cloning, specify the directory name:
+
+```sh
+git clone https://github.com/andreasCaesario/bookcabin.git bookcabin-test
+```
+
+This ensures all Go module imports and scripts work correctly.
+
 ## Project Structure
 
 ```
