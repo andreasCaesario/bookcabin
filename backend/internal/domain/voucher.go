@@ -9,9 +9,11 @@ type Voucher struct {
 	ID           uint `gorm:"primaryKey"`
 	Name         string
 	CrewID       string
-	FlightNumber string `gorm:"uniqueIndex:idx_flight_date"`
-	FlightDate   string `gorm:"uniqueIndex:idx_flight_date"`
+	FlightNumber string
+	FlightDate   string
 	Aircraft     string
-	Seats        string    // comma separated
+	Seat1        string
+	Seat2        string
+	Seat3        string
 	CreatedAt    time.Time `gorm:"autoCreateTime"`
 }

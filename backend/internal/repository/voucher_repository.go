@@ -31,5 +31,5 @@ func (r *voucherRepository) FindByFlightAndDate(flightNumber, date string) (*dom
 
 // Create saves a new voucher to the database
 func (r *voucherRepository) Create(voucher *domain.Voucher) error {
-	return r.db.Create(voucher).Error
+	return r.db.Save(voucher).Error
 }
